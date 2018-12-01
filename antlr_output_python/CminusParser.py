@@ -34,8 +34,8 @@ def serializedATN():
         buf.write("\34\3\34\3\35\5\35\u00f8\n\35\3\36\3\36\3\36\3\36\3\36")
         buf.write("\3\36\7\36\u0100\n\36\f\36\16\36\u0103\13\36\3\36\2\7")
         buf.write("\4\20,\60:\37\2\4\6\b\n\f\16\20\22\24\26\30\32\34\36 ")
-        buf.write("\"$&(*,.\60\62\64\668:\2\6\3\2\6\7\3\2\22\27\3\2\30\31")
-        buf.write("\3\2\32\33\2\u0100\2<\3\2\2\2\4>\3\2\2\2\6J\3\2\2\2\b")
+        buf.write("\"$&(*,.\60\62\64\668:\2\6\3\2\3\4\3\2\24\31\3\2\32\33")
+        buf.write("\3\2\34\35\2\u0100\2<\3\2\2\2\4>\3\2\2\2\6J\3\2\2\2\b")
         buf.write("W\3\2\2\2\nY\3\2\2\2\f[\3\2\2\2\16d\3\2\2\2\20f\3\2\2")
         buf.write("\2\22y\3\2\2\2\24{\3\2\2\2\26\u0083\3\2\2\2\30\u0089\3")
         buf.write("\2\2\2\32\u0091\3\2\2\2\34\u0094\3\2\2\2\36\u00a6\3\2")
@@ -46,18 +46,18 @@ def serializedATN():
         buf.write("\2<=\5\4\3\2=\3\3\2\2\2>?\b\3\1\2?@\5\6\4\2@E\3\2\2\2")
         buf.write("AB\f\4\2\2BD\5\6\4\2CA\3\2\2\2DG\3\2\2\2EC\3\2\2\2EF\3")
         buf.write("\2\2\2F\5\3\2\2\2GE\3\2\2\2HK\5\b\5\2IK\5\f\7\2JH\3\2")
-        buf.write("\2\2JI\3\2\2\2K\7\3\2\2\2LM\5\n\6\2MN\7\35\2\2NO\7\3\2")
-        buf.write("\2OX\3\2\2\2PQ\5\n\6\2QR\7\35\2\2RS\7\4\2\2ST\7\36\2\2")
-        buf.write("TU\7\5\2\2UV\7\3\2\2VX\3\2\2\2WL\3\2\2\2WP\3\2\2\2X\t")
-        buf.write("\3\2\2\2YZ\t\2\2\2Z\13\3\2\2\2[\\\5\n\6\2\\]\7\35\2\2")
-        buf.write("]^\7\b\2\2^_\5\16\b\2_`\7\t\2\2`a\5\24\13\2a\r\3\2\2\2")
-        buf.write("be\5\20\t\2ce\7\7\2\2db\3\2\2\2dc\3\2\2\2e\17\3\2\2\2")
-        buf.write("fg\b\t\1\2gh\5\22\n\2hn\3\2\2\2ij\f\4\2\2jk\7\n\2\2km")
-        buf.write("\5\22\n\2li\3\2\2\2mp\3\2\2\2nl\3\2\2\2no\3\2\2\2o\21")
-        buf.write("\3\2\2\2pn\3\2\2\2qr\5\n\6\2rs\7\35\2\2sz\3\2\2\2tu\5")
-        buf.write("\n\6\2uv\7\35\2\2vw\7\4\2\2wx\7\5\2\2xz\3\2\2\2yq\3\2")
-        buf.write("\2\2yt\3\2\2\2z\23\3\2\2\2{|\7\13\2\2|}\5\26\f\2}~\5\30")
-        buf.write("\r\2~\177\7\f\2\2\177\25\3\2\2\2\u0080\u0082\5\b\5\2\u0081")
+        buf.write("\2\2JI\3\2\2\2K\7\3\2\2\2LM\5\n\6\2MN\7\22\2\2NO\7\6\2")
+        buf.write("\2OX\3\2\2\2PQ\5\n\6\2QR\7\22\2\2RS\7\7\2\2ST\7\5\2\2")
+        buf.write("TU\7\b\2\2UV\7\6\2\2VX\3\2\2\2WL\3\2\2\2WP\3\2\2\2X\t")
+        buf.write("\3\2\2\2YZ\t\2\2\2Z\13\3\2\2\2[\\\5\n\6\2\\]\7\22\2\2")
+        buf.write("]^\7\t\2\2^_\5\16\b\2_`\7\n\2\2`a\5\24\13\2a\r\3\2\2\2")
+        buf.write("be\5\20\t\2ce\7\4\2\2db\3\2\2\2dc\3\2\2\2e\17\3\2\2\2")
+        buf.write("fg\b\t\1\2gh\5\22\n\2hn\3\2\2\2ij\f\4\2\2jk\7\13\2\2k")
+        buf.write("m\5\22\n\2li\3\2\2\2mp\3\2\2\2nl\3\2\2\2no\3\2\2\2o\21")
+        buf.write("\3\2\2\2pn\3\2\2\2qr\5\n\6\2rs\7\22\2\2sz\3\2\2\2tu\5")
+        buf.write("\n\6\2uv\7\22\2\2vw\7\7\2\2wx\7\b\2\2xz\3\2\2\2yq\3\2")
+        buf.write("\2\2yt\3\2\2\2z\23\3\2\2\2{|\7\f\2\2|}\5\26\f\2}~\5\30")
+        buf.write("\r\2~\177\7\r\2\2\177\25\3\2\2\2\u0080\u0082\5\b\5\2\u0081")
         buf.write("\u0080\3\2\2\2\u0082\u0085\3\2\2\2\u0083\u0081\3\2\2\2")
         buf.write("\u0083\u0084\3\2\2\2\u0084\27\3\2\2\2\u0085\u0083\3\2")
         buf.write("\2\2\u0086\u0088\5\32\16\2\u0087\u0086\3\2\2\2\u0088\u008b")
@@ -68,23 +68,23 @@ def serializedATN():
         buf.write("\u008d\3\2\2\2\u0091\u008e\3\2\2\2\u0091\u008f\3\2\2\2")
         buf.write("\u0091\u0090\3\2\2\2\u0092\33\3\2\2\2\u0093\u0095\5$\23")
         buf.write("\2\u0094\u0093\3\2\2\2\u0094\u0095\3\2\2\2\u0095\u0096")
-        buf.write("\3\2\2\2\u0096\u0097\7\3\2\2\u0097\35\3\2\2\2\u0098\u0099")
-        buf.write("\7\r\2\2\u0099\u009a\7\b\2\2\u009a\u009b\5$\23\2\u009b")
-        buf.write("\u009c\7\t\2\2\u009c\u009d\5\32\16\2\u009d\u00a7\3\2\2")
-        buf.write("\2\u009e\u009f\7\r\2\2\u009f\u00a0\7\b\2\2\u00a0\u00a1")
-        buf.write("\5$\23\2\u00a1\u00a2\7\t\2\2\u00a2\u00a3\5\32\16\2\u00a3")
-        buf.write("\u00a4\7\16\2\2\u00a4\u00a5\5\32\16\2\u00a5\u00a7\3\2")
+        buf.write("\3\2\2\2\u0096\u0097\7\6\2\2\u0097\35\3\2\2\2\u0098\u0099")
+        buf.write("\7\16\2\2\u0099\u009a\7\t\2\2\u009a\u009b\5$\23\2\u009b")
+        buf.write("\u009c\7\n\2\2\u009c\u009d\5\32\16\2\u009d\u00a7\3\2\2")
+        buf.write("\2\u009e\u009f\7\16\2\2\u009f\u00a0\7\t\2\2\u00a0\u00a1")
+        buf.write("\5$\23\2\u00a1\u00a2\7\n\2\2\u00a2\u00a3\5\32\16\2\u00a3")
+        buf.write("\u00a4\7\17\2\2\u00a4\u00a5\5\32\16\2\u00a5\u00a7\3\2")
         buf.write("\2\2\u00a6\u0098\3\2\2\2\u00a6\u009e\3\2\2\2\u00a7\37")
-        buf.write("\3\2\2\2\u00a8\u00a9\7\17\2\2\u00a9\u00aa\7\b\2\2\u00aa")
-        buf.write("\u00ab\5$\23\2\u00ab\u00ac\7\t\2\2\u00ac\u00ad\5\32\16")
-        buf.write("\2\u00ad!\3\2\2\2\u00ae\u00b0\7\20\2\2\u00af\u00b1\5$")
+        buf.write("\3\2\2\2\u00a8\u00a9\7\20\2\2\u00a9\u00aa\7\t\2\2\u00aa")
+        buf.write("\u00ab\5$\23\2\u00ab\u00ac\7\n\2\2\u00ac\u00ad\5\32\16")
+        buf.write("\2\u00ad!\3\2\2\2\u00ae\u00b0\7\21\2\2\u00af\u00b1\5$")
         buf.write("\23\2\u00b0\u00af\3\2\2\2\u00b0\u00b1\3\2\2\2\u00b1\u00b2")
-        buf.write("\3\2\2\2\u00b2\u00b3\7\3\2\2\u00b3#\3\2\2\2\u00b4\u00b5")
-        buf.write("\5&\24\2\u00b5\u00b6\7\21\2\2\u00b6\u00b7\5$\23\2\u00b7")
+        buf.write("\3\2\2\2\u00b2\u00b3\7\6\2\2\u00b3#\3\2\2\2\u00b4\u00b5")
+        buf.write("\5&\24\2\u00b5\u00b6\7\23\2\2\u00b6\u00b7\5$\23\2\u00b7")
         buf.write("\u00ba\3\2\2\2\u00b8\u00ba\5(\25\2\u00b9\u00b4\3\2\2\2")
-        buf.write("\u00b9\u00b8\3\2\2\2\u00ba%\3\2\2\2\u00bb\u00c2\7\35\2")
-        buf.write("\2\u00bc\u00bd\7\35\2\2\u00bd\u00be\7\4\2\2\u00be\u00bf")
-        buf.write("\5$\23\2\u00bf\u00c0\7\5\2\2\u00c0\u00c2\3\2\2\2\u00c1")
+        buf.write("\u00b9\u00b8\3\2\2\2\u00ba%\3\2\2\2\u00bb\u00c2\7\22\2")
+        buf.write("\2\u00bc\u00bd\7\22\2\2\u00bd\u00be\7\7\2\2\u00be\u00bf")
+        buf.write("\5$\23\2\u00bf\u00c0\7\b\2\2\u00c0\u00c2\3\2\2\2\u00c1")
         buf.write("\u00bb\3\2\2\2\u00c1\u00bc\3\2\2\2\u00c2\'\3\2\2\2\u00c3")
         buf.write("\u00c4\5,\27\2\u00c4\u00c5\5*\26\2\u00c5\u00c6\5,\27\2")
         buf.write("\u00c6\u00c9\3\2\2\2\u00c7\u00c9\5,\27\2\u00c8\u00c3\3")
@@ -100,18 +100,18 @@ def serializedATN():
         buf.write("\33\2\u00e0\u00e2\3\2\2\2\u00e1\u00dd\3\2\2\2\u00e2\u00e5")
         buf.write("\3\2\2\2\u00e3\u00e1\3\2\2\2\u00e3\u00e4\3\2\2\2\u00e4")
         buf.write("\61\3\2\2\2\u00e5\u00e3\3\2\2\2\u00e6\u00e7\t\5\2\2\u00e7")
-        buf.write("\63\3\2\2\2\u00e8\u00e9\7\b\2\2\u00e9\u00ea\5$\23\2\u00ea")
-        buf.write("\u00eb\7\t\2\2\u00eb\u00f0\3\2\2\2\u00ec\u00f0\5&\24\2")
-        buf.write("\u00ed\u00f0\5\66\34\2\u00ee\u00f0\7\36\2\2\u00ef\u00e8")
+        buf.write("\63\3\2\2\2\u00e8\u00e9\7\t\2\2\u00e9\u00ea\5$\23\2\u00ea")
+        buf.write("\u00eb\7\n\2\2\u00eb\u00f0\3\2\2\2\u00ec\u00f0\5&\24\2")
+        buf.write("\u00ed\u00f0\5\66\34\2\u00ee\u00f0\7\5\2\2\u00ef\u00e8")
         buf.write("\3\2\2\2\u00ef\u00ec\3\2\2\2\u00ef\u00ed\3\2\2\2\u00ef")
-        buf.write("\u00ee\3\2\2\2\u00f0\65\3\2\2\2\u00f1\u00f2\7\35\2\2\u00f2")
-        buf.write("\u00f3\7\b\2\2\u00f3\u00f4\58\35\2\u00f4\u00f5\7\t\2\2")
+        buf.write("\u00ee\3\2\2\2\u00f0\65\3\2\2\2\u00f1\u00f2\7\22\2\2\u00f2")
+        buf.write("\u00f3\7\t\2\2\u00f3\u00f4\58\35\2\u00f4\u00f5\7\n\2\2")
         buf.write("\u00f5\67\3\2\2\2\u00f6\u00f8\5:\36\2\u00f7\u00f6\3\2")
         buf.write("\2\2\u00f7\u00f8\3\2\2\2\u00f89\3\2\2\2\u00f9\u00fa\b")
         buf.write("\36\1\2\u00fa\u00fb\5$\23\2\u00fb\u0101\3\2\2\2\u00fc")
-        buf.write("\u00fd\f\4\2\2\u00fd\u00fe\7\n\2\2\u00fe\u0100\5$\23\2")
-        buf.write("\u00ff\u00fc\3\2\2\2\u0100\u0103\3\2\2\2\u0101\u00ff\3")
-        buf.write("\2\2\2\u0101\u0102\3\2\2\2\u0102;\3\2\2\2\u0103\u0101")
+        buf.write("\u00fd\f\4\2\2\u00fd\u00fe\7\13\2\2\u00fe\u0100\5$\23")
+        buf.write("\2\u00ff\u00fc\3\2\2\2\u0100\u0103\3\2\2\2\u0101\u00ff")
+        buf.write("\3\2\2\2\u0101\u0102\3\2\2\2\u0102;\3\2\2\2\u0103\u0101")
         buf.write("\3\2\2\2\26EJWdny\u0083\u0089\u0091\u0094\u00a6\u00b0")
         buf.write("\u00b9\u00c1\u00c8\u00d5\u00e3\u00ef\u00f7\u0101")
         return buf.getvalue()
@@ -127,19 +127,17 @@ class CminusParser ( Parser ):
 
     sharedContextCache = PredictionContextCache()
 
-    literalNames = [ "<INVALID>", "';'", "'['", "']'", "'int'", "'void'", 
-                     "'('", "')'", "','", "'{'", "'}'", "'if'", "'else'", 
-                     "'while'", "'return'", "'='", "'<='", "'<'", "'>'", 
-                     "'>='", "'=='", "'!='", "'+'", "'-'", "'*'", "'/'" ]
+    literalNames = [ "<INVALID>", "'int'", "'void'", "<INVALID>", "';'", 
+                     "'['", "']'", "'('", "')'", "','", "'{'", "'}'", "'if'", 
+                     "'else'", "'while'", "'return'", "<INVALID>", "'='", 
+                     "'<='", "'<'", "'>'", "'>='", "'=='", "'!='", "'+'", 
+                     "'-'", "'*'", "'/'" ]
 
-    symbolicNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
-                      "<INVALID>", "<INVALID>", "COMMENT", "ID", "NUMBER", 
-                      "WS" ]
+    symbolicNames = [ "<INVALID>", "INT", "VOID", "NUMBER", "SEMI", "LBRACK", 
+                      "RBRACK", "LPAREN", "RPAREN", "COMMA", "LBRACE", "RBRACE", 
+                      "IF", "ELSE", "WHILE", "RETURN", "ID", "EQUAL", "LE", 
+                      "LT", "GT", "GE", "EQUAL_EQUAL", "NOT_EQUAL", "ADD", 
+                      "SUB", "MUL", "DIV", "COMMENT", "WS" ]
 
     RULE_program = 0
     RULE_declaration_list = 1
@@ -180,34 +178,34 @@ class CminusParser ( Parser ):
                    "addop", "term", "mulop", "factor", "call", "args", "arg_list" ]
 
     EOF = Token.EOF
-    T__0=1
-    T__1=2
-    T__2=3
-    T__3=4
-    T__4=5
-    T__5=6
-    T__6=7
-    T__7=8
-    T__8=9
-    T__9=10
-    T__10=11
-    T__11=12
-    T__12=13
-    T__13=14
-    T__14=15
-    T__15=16
-    T__16=17
-    T__17=18
-    T__18=19
-    T__19=20
-    T__20=21
-    T__21=22
-    T__22=23
-    T__23=24
-    T__24=25
-    COMMENT=26
-    ID=27
-    NUMBER=28
+    INT=1
+    VOID=2
+    NUMBER=3
+    SEMI=4
+    LBRACK=5
+    RBRACK=6
+    LPAREN=7
+    RPAREN=8
+    COMMA=9
+    LBRACE=10
+    RBRACE=11
+    IF=12
+    ELSE=13
+    WHILE=14
+    RETURN=15
+    ID=16
+    EQUAL=17
+    LE=18
+    LT=19
+    GT=20
+    GE=21
+    EQUAL_EQUAL=22
+    NOT_EQUAL=23
+    ADD=24
+    SUB=25
+    MUL=26
+    DIV=27
+    COMMENT=28
     WS=29
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
@@ -413,8 +411,17 @@ class CminusParser ( Parser ):
         def ID(self):
             return self.getToken(CminusParser.ID, 0)
 
+        def SEMI(self):
+            return self.getToken(CminusParser.SEMI, 0)
+
+        def LBRACK(self):
+            return self.getToken(CminusParser.LBRACK, 0)
+
         def NUMBER(self):
             return self.getToken(CminusParser.NUMBER, 0)
+
+        def RBRACK(self):
+            return self.getToken(CminusParser.RBRACK, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_var_declaration
@@ -451,7 +458,7 @@ class CminusParser ( Parser ):
                 self.state = 75
                 self.match(CminusParser.ID)
                 self.state = 76
-                self.match(CminusParser.T__0)
+                self.match(CminusParser.SEMI)
                 pass
 
             elif la_ == 2:
@@ -461,13 +468,13 @@ class CminusParser ( Parser ):
                 self.state = 79
                 self.match(CminusParser.ID)
                 self.state = 80
-                self.match(CminusParser.T__1)
+                self.match(CminusParser.LBRACK)
                 self.state = 81
                 self.match(CminusParser.NUMBER)
                 self.state = 82
-                self.match(CminusParser.T__2)
+                self.match(CminusParser.RBRACK)
                 self.state = 83
-                self.match(CminusParser.T__0)
+                self.match(CminusParser.SEMI)
                 pass
 
 
@@ -485,6 +492,11 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def INT(self):
+            return self.getToken(CminusParser.INT, 0)
+
+        def VOID(self):
+            return self.getToken(CminusParser.VOID, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_type_specifier
@@ -515,7 +527,7 @@ class CminusParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 87
             _la = self._input.LA(1)
-            if not(_la==CminusParser.T__3 or _la==CminusParser.T__4):
+            if not(_la==CminusParser.INT or _la==CminusParser.VOID):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -541,9 +553,15 @@ class CminusParser ( Parser ):
         def ID(self):
             return self.getToken(CminusParser.ID, 0)
 
+        def LPAREN(self):
+            return self.getToken(CminusParser.LPAREN, 0)
+
         def params(self):
             return self.getTypedRuleContext(CminusParser.ParamsContext,0)
 
+
+        def RPAREN(self):
+            return self.getToken(CminusParser.RPAREN, 0)
 
         def compound_statement(self):
             return self.getTypedRuleContext(CminusParser.Compound_statementContext,0)
@@ -580,11 +598,11 @@ class CminusParser ( Parser ):
             self.state = 90
             self.match(CminusParser.ID)
             self.state = 91
-            self.match(CminusParser.T__5)
+            self.match(CminusParser.LPAREN)
             self.state = 92
             self.params()
             self.state = 93
-            self.match(CminusParser.T__6)
+            self.match(CminusParser.RPAREN)
             self.state = 94
             self.compound_statement()
         except RecognitionException as re:
@@ -604,6 +622,9 @@ class CminusParser ( Parser ):
         def param_list(self):
             return self.getTypedRuleContext(CminusParser.Param_listContext,0)
 
+
+        def VOID(self):
+            return self.getToken(CminusParser.VOID, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_params
@@ -642,7 +663,7 @@ class CminusParser ( Parser ):
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 97
-                self.match(CminusParser.T__4)
+                self.match(CminusParser.VOID)
                 pass
 
 
@@ -667,6 +688,9 @@ class CminusParser ( Parser ):
         def param_list(self):
             return self.getTypedRuleContext(CminusParser.Param_listContext,0)
 
+
+        def COMMA(self):
+            return self.getToken(CminusParser.COMMA, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_param_list
@@ -714,7 +738,7 @@ class CminusParser ( Parser ):
                         from antlr4.error.Errors import FailedPredicateException
                         raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
                     self.state = 104
-                    self.match(CminusParser.T__7)
+                    self.match(CminusParser.COMMA)
                     self.state = 105
                     self.param() 
                 self.state = 110
@@ -741,6 +765,12 @@ class CminusParser ( Parser ):
 
         def ID(self):
             return self.getToken(CminusParser.ID, 0)
+
+        def LBRACK(self):
+            return self.getToken(CminusParser.LBRACK, 0)
+
+        def RBRACK(self):
+            return self.getToken(CminusParser.RBRACK, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_param
@@ -785,9 +815,9 @@ class CminusParser ( Parser ):
                 self.state = 115
                 self.match(CminusParser.ID)
                 self.state = 116
-                self.match(CminusParser.T__1)
+                self.match(CminusParser.LBRACK)
                 self.state = 117
-                self.match(CminusParser.T__2)
+                self.match(CminusParser.RBRACK)
                 pass
 
 
@@ -805,6 +835,9 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def LBRACE(self):
+            return self.getToken(CminusParser.LBRACE, 0)
+
         def local_declarations(self):
             return self.getTypedRuleContext(CminusParser.Local_declarationsContext,0)
 
@@ -812,6 +845,9 @@ class CminusParser ( Parser ):
         def statement_list(self):
             return self.getTypedRuleContext(CminusParser.Statement_listContext,0)
 
+
+        def RBRACE(self):
+            return self.getToken(CminusParser.RBRACE, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_compound_statement
@@ -840,13 +876,13 @@ class CminusParser ( Parser ):
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 121
-            self.match(CminusParser.T__8)
+            self.match(CminusParser.LBRACE)
             self.state = 122
             self.local_declarations()
             self.state = 123
             self.statement_list()
             self.state = 124
-            self.match(CminusParser.T__9)
+            self.match(CminusParser.RBRACE)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -898,7 +934,7 @@ class CminusParser ( Parser ):
             self.state = 129
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while _la==CminusParser.T__3 or _la==CminusParser.T__4:
+            while _la==CminusParser.INT or _la==CminusParser.VOID:
                 self.state = 126
                 self.var_declaration()
                 self.state = 131
@@ -956,7 +992,7 @@ class CminusParser ( Parser ):
             self.state = 135
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.T__0) | (1 << CminusParser.T__5) | (1 << CminusParser.T__8) | (1 << CminusParser.T__10) | (1 << CminusParser.T__12) | (1 << CminusParser.T__13) | (1 << CminusParser.ID) | (1 << CminusParser.NUMBER))) != 0):
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.NUMBER) | (1 << CminusParser.SEMI) | (1 << CminusParser.LPAREN) | (1 << CminusParser.LBRACE) | (1 << CminusParser.IF) | (1 << CminusParser.WHILE) | (1 << CminusParser.RETURN) | (1 << CminusParser.ID))) != 0):
                 self.state = 132
                 self.statement()
                 self.state = 137
@@ -1025,27 +1061,27 @@ class CminusParser ( Parser ):
             self.state = 143
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [CminusParser.T__0, CminusParser.T__5, CminusParser.ID, CminusParser.NUMBER]:
+            if token in [CminusParser.NUMBER, CminusParser.SEMI, CminusParser.LPAREN, CminusParser.ID]:
                 self.enterOuterAlt(localctx, 1)
                 self.state = 138
                 self.expression_statement()
                 pass
-            elif token in [CminusParser.T__8]:
+            elif token in [CminusParser.LBRACE]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 139
                 self.compound_statement()
                 pass
-            elif token in [CminusParser.T__10]:
+            elif token in [CminusParser.IF]:
                 self.enterOuterAlt(localctx, 3)
                 self.state = 140
                 self.selection_statement()
                 pass
-            elif token in [CminusParser.T__12]:
+            elif token in [CminusParser.WHILE]:
                 self.enterOuterAlt(localctx, 4)
                 self.state = 141
                 self.iteration_statement()
                 pass
-            elif token in [CminusParser.T__13]:
+            elif token in [CminusParser.RETURN]:
                 self.enterOuterAlt(localctx, 5)
                 self.state = 142
                 self.return_statemet()
@@ -1066,6 +1102,9 @@ class CminusParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def SEMI(self):
+            return self.getToken(CminusParser.SEMI, 0)
 
         def expression(self):
             return self.getTypedRuleContext(CminusParser.ExpressionContext,0)
@@ -1101,13 +1140,13 @@ class CminusParser ( Parser ):
             self.state = 146
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.T__5) | (1 << CminusParser.ID) | (1 << CminusParser.NUMBER))) != 0):
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.NUMBER) | (1 << CminusParser.LPAREN) | (1 << CminusParser.ID))) != 0):
                 self.state = 145
                 self.expression()
 
 
             self.state = 148
-            self.match(CminusParser.T__0)
+            self.match(CminusParser.SEMI)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -1122,9 +1161,18 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def IF(self):
+            return self.getToken(CminusParser.IF, 0)
+
+        def LPAREN(self):
+            return self.getToken(CminusParser.LPAREN, 0)
+
         def expression(self):
             return self.getTypedRuleContext(CminusParser.ExpressionContext,0)
 
+
+        def RPAREN(self):
+            return self.getToken(CminusParser.RPAREN, 0)
 
         def statement(self, i:int=None):
             if i is None:
@@ -1132,6 +1180,9 @@ class CminusParser ( Parser ):
             else:
                 return self.getTypedRuleContext(CminusParser.StatementContext,i)
 
+
+        def ELSE(self):
+            return self.getToken(CminusParser.ELSE, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_selection_statement
@@ -1164,13 +1215,13 @@ class CminusParser ( Parser ):
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
                 self.state = 150
-                self.match(CminusParser.T__10)
+                self.match(CminusParser.IF)
                 self.state = 151
-                self.match(CminusParser.T__5)
+                self.match(CminusParser.LPAREN)
                 self.state = 152
                 self.expression()
                 self.state = 153
-                self.match(CminusParser.T__6)
+                self.match(CminusParser.RPAREN)
                 self.state = 154
                 self.statement()
                 pass
@@ -1178,17 +1229,17 @@ class CminusParser ( Parser ):
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 156
-                self.match(CminusParser.T__10)
+                self.match(CminusParser.IF)
                 self.state = 157
-                self.match(CminusParser.T__5)
+                self.match(CminusParser.LPAREN)
                 self.state = 158
                 self.expression()
                 self.state = 159
-                self.match(CminusParser.T__6)
+                self.match(CminusParser.RPAREN)
                 self.state = 160
                 self.statement()
                 self.state = 161
-                self.match(CminusParser.T__11)
+                self.match(CminusParser.ELSE)
                 self.state = 162
                 self.statement()
                 pass
@@ -1208,9 +1259,18 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def WHILE(self):
+            return self.getToken(CminusParser.WHILE, 0)
+
+        def LPAREN(self):
+            return self.getToken(CminusParser.LPAREN, 0)
+
         def expression(self):
             return self.getTypedRuleContext(CminusParser.ExpressionContext,0)
 
+
+        def RPAREN(self):
+            return self.getToken(CminusParser.RPAREN, 0)
 
         def statement(self):
             return self.getTypedRuleContext(CminusParser.StatementContext,0)
@@ -1243,13 +1303,13 @@ class CminusParser ( Parser ):
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 166
-            self.match(CminusParser.T__12)
+            self.match(CminusParser.WHILE)
             self.state = 167
-            self.match(CminusParser.T__5)
+            self.match(CminusParser.LPAREN)
             self.state = 168
             self.expression()
             self.state = 169
-            self.match(CminusParser.T__6)
+            self.match(CminusParser.RPAREN)
             self.state = 170
             self.statement()
         except RecognitionException as re:
@@ -1265,6 +1325,12 @@ class CminusParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+
+        def RETURN(self):
+            return self.getToken(CminusParser.RETURN, 0)
+
+        def SEMI(self):
+            return self.getToken(CminusParser.SEMI, 0)
 
         def expression(self):
             return self.getTypedRuleContext(CminusParser.ExpressionContext,0)
@@ -1298,17 +1364,17 @@ class CminusParser ( Parser ):
         try:
             self.enterOuterAlt(localctx, 1)
             self.state = 172
-            self.match(CminusParser.T__13)
+            self.match(CminusParser.RETURN)
             self.state = 174
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.T__5) | (1 << CminusParser.ID) | (1 << CminusParser.NUMBER))) != 0):
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.NUMBER) | (1 << CminusParser.LPAREN) | (1 << CminusParser.ID))) != 0):
                 self.state = 173
                 self.expression()
 
 
             self.state = 176
-            self.match(CminusParser.T__0)
+            self.match(CminusParser.SEMI)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -1326,6 +1392,9 @@ class CminusParser ( Parser ):
         def var(self):
             return self.getTypedRuleContext(CminusParser.VarContext,0)
 
+
+        def EQUAL(self):
+            return self.getToken(CminusParser.EQUAL, 0)
 
         def expression(self):
             return self.getTypedRuleContext(CminusParser.ExpressionContext,0)
@@ -1368,7 +1437,7 @@ class CminusParser ( Parser ):
                 self.state = 178
                 self.var()
                 self.state = 179
-                self.match(CminusParser.T__14)
+                self.match(CminusParser.EQUAL)
                 self.state = 180
                 self.expression()
                 pass
@@ -1397,9 +1466,15 @@ class CminusParser ( Parser ):
         def ID(self):
             return self.getToken(CminusParser.ID, 0)
 
+        def LBRACK(self):
+            return self.getToken(CminusParser.LBRACK, 0)
+
         def expression(self):
             return self.getTypedRuleContext(CminusParser.ExpressionContext,0)
 
+
+        def RBRACK(self):
+            return self.getToken(CminusParser.RBRACK, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_var
@@ -1440,11 +1515,11 @@ class CminusParser ( Parser ):
                 self.state = 186
                 self.match(CminusParser.ID)
                 self.state = 187
-                self.match(CminusParser.T__1)
+                self.match(CminusParser.LBRACK)
                 self.state = 188
                 self.expression()
                 self.state = 189
-                self.match(CminusParser.T__2)
+                self.match(CminusParser.RBRACK)
                 pass
 
 
@@ -1532,6 +1607,23 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def LE(self):
+            return self.getToken(CminusParser.LE, 0)
+
+        def LT(self):
+            return self.getToken(CminusParser.LT, 0)
+
+        def GT(self):
+            return self.getToken(CminusParser.GT, 0)
+
+        def GE(self):
+            return self.getToken(CminusParser.GE, 0)
+
+        def EQUAL_EQUAL(self):
+            return self.getToken(CminusParser.EQUAL_EQUAL, 0)
+
+        def NOT_EQUAL(self):
+            return self.getToken(CminusParser.NOT_EQUAL, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_relop
@@ -1562,7 +1654,7 @@ class CminusParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 200
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.T__15) | (1 << CminusParser.T__16) | (1 << CminusParser.T__17) | (1 << CminusParser.T__18) | (1 << CminusParser.T__19) | (1 << CminusParser.T__20))) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.LE) | (1 << CminusParser.LT) | (1 << CminusParser.GT) | (1 << CminusParser.GE) | (1 << CminusParser.EQUAL_EQUAL) | (1 << CminusParser.NOT_EQUAL))) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1660,6 +1752,11 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def ADD(self):
+            return self.getToken(CminusParser.ADD, 0)
+
+        def SUB(self):
+            return self.getToken(CminusParser.SUB, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_addop
@@ -1690,7 +1787,7 @@ class CminusParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 214
             _la = self._input.LA(1)
-            if not(_la==CminusParser.T__21 or _la==CminusParser.T__22):
+            if not(_la==CminusParser.ADD or _la==CminusParser.SUB):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1788,6 +1885,11 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def MUL(self):
+            return self.getToken(CminusParser.MUL, 0)
+
+        def DIV(self):
+            return self.getToken(CminusParser.DIV, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_mulop
@@ -1818,7 +1920,7 @@ class CminusParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 228
             _la = self._input.LA(1)
-            if not(_la==CminusParser.T__23 or _la==CminusParser.T__24):
+            if not(_la==CminusParser.MUL or _la==CminusParser.DIV):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1837,9 +1939,15 @@ class CminusParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def LPAREN(self):
+            return self.getToken(CminusParser.LPAREN, 0)
+
         def expression(self):
             return self.getTypedRuleContext(CminusParser.ExpressionContext,0)
 
+
+        def RPAREN(self):
+            return self.getToken(CminusParser.RPAREN, 0)
 
         def var(self):
             return self.getTypedRuleContext(CminusParser.VarContext,0)
@@ -1883,11 +1991,11 @@ class CminusParser ( Parser ):
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
                 self.state = 230
-                self.match(CminusParser.T__5)
+                self.match(CminusParser.LPAREN)
                 self.state = 231
                 self.expression()
                 self.state = 232
-                self.match(CminusParser.T__6)
+                self.match(CminusParser.RPAREN)
                 pass
 
             elif la_ == 2:
@@ -1926,9 +2034,15 @@ class CminusParser ( Parser ):
         def ID(self):
             return self.getToken(CminusParser.ID, 0)
 
+        def LPAREN(self):
+            return self.getToken(CminusParser.LPAREN, 0)
+
         def args(self):
             return self.getTypedRuleContext(CminusParser.ArgsContext,0)
 
+
+        def RPAREN(self):
+            return self.getToken(CminusParser.RPAREN, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_call
@@ -1959,11 +2073,11 @@ class CminusParser ( Parser ):
             self.state = 239
             self.match(CminusParser.ID)
             self.state = 240
-            self.match(CminusParser.T__5)
+            self.match(CminusParser.LPAREN)
             self.state = 241
             self.args()
             self.state = 242
-            self.match(CminusParser.T__6)
+            self.match(CminusParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -2012,7 +2126,7 @@ class CminusParser ( Parser ):
             self.state = 245
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.T__5) | (1 << CminusParser.ID) | (1 << CminusParser.NUMBER))) != 0):
+            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << CminusParser.NUMBER) | (1 << CminusParser.LPAREN) | (1 << CminusParser.ID))) != 0):
                 self.state = 244
                 self.arg_list(0)
 
@@ -2038,6 +2152,9 @@ class CminusParser ( Parser ):
         def arg_list(self):
             return self.getTypedRuleContext(CminusParser.Arg_listContext,0)
 
+
+        def COMMA(self):
+            return self.getToken(CminusParser.COMMA, 0)
 
         def getRuleIndex(self):
             return CminusParser.RULE_arg_list
@@ -2085,7 +2202,7 @@ class CminusParser ( Parser ):
                         from antlr4.error.Errors import FailedPredicateException
                         raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
                     self.state = 251
-                    self.match(CminusParser.T__7)
+                    self.match(CminusParser.COMMA)
                     self.state = 252
                     self.expression() 
                 self.state = 257
