@@ -78,4 +78,7 @@ Out[4]: 'intgcd(intu,intv){if(v==0){returnu;}else{returngcd(v,u-u/v*v);}}voidmai
 ```
 
 É gerada uma árvore de altura = 1 .... 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 204f73f86aeb42db593cc91ab15b8a67b8611f8a
