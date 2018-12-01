@@ -25,7 +25,8 @@
     antlr4 -Dlanguage=Python3 -o antlr_output_python/ -visitor Cminus.g4
 
  Fiz os testes dos arquivos gerados com o grun:
-     ./pygrun Cminus program --tree code_test.c-
+  ```
+  ./pygrun Cminus program --tree code_test.c-
         (program 
            (declaration_list 
               (declaration_list 
@@ -53,9 +54,9 @@
       [@11,35:35='(',<6>,2:4]
       [@12,36:36='v',<27>,2:5]
       [@13,38:39='==',<20>,2:7]
-
- No pygrun está tudo funcionando corretamente, porém quando uso o código a seguir a árvore não é gerada corretamente:
- ```
+```
+No pygrun está tudo funcionando corretamente, porém quando uso o código a seguir a árvore não é gerada corretamente:
+```
 import sys
 from antlr4 import *
 from CminusLexer import CminusLexer
