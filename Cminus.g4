@@ -1,6 +1,7 @@
 grammar Cminus;
 
 program: declaration_list;
+
 declaration_list: declaration_list declaration | declaration;
 declaration: var_declaration | fun_declaration;
 var_declaration:
@@ -42,7 +43,7 @@ call: ID '(' args ')';
 args: arg_list?;
 arg_list: arg_list ',' expression | expression;
 
-COMMENT: '/*' (.)*? '*/' -> channel(HIDDEN);
+COMMENT: '/*' (.)*? '*/' -> skip;
 ID: [a-zA-Z]+;
 NUMBER: '0' | [1-9][0-9]*;
-WS: [ \t\r\n]+ -> channel(HIDDEN);
+WS: [ \t\r\n]+ -> skip;
