@@ -55,7 +55,7 @@
       [@12,36:36='v',<27>,2:5]
       [@13,38:39='==',<20>,2:7]
 ```
-No pygrun está tudo funcionando corretamente, porém quando uso o código a seguir a árvore não é gerada corretamente:
+No pygrun está tudo funcionando corretamente, com o código a seguir é possível percorrer a árvore utilizando o walker para imprimir os nomes de todas as variáveis após modificação de um método da classe Listener:
 ```
 import sys
 from antlr4 import *
@@ -71,14 +71,40 @@ lexer = CminusLexer(input)
 stream = CommonTokenStream(lexer)
 parser = CminusParser(stream)
 tree = parser.program()
- ```
- ```
-In [4]: tree.getChild(0).getText()
-Out[4]: 'intgcd(intu,intv){if(v==0){returnu;}else{returngcd(v,u-u/v*v);}}voidmain(void){intx;inty;intres;x=input();y=input();res=gcd(x,y);output(res);return;}'
 ```
+```
+from antlr4 import *
+from CminusLexer import CminusLexer
+from CminusParser import CminusParser
+from CminusListener import CminusListener
 
-É gerada uma árvore de altura = 1 .... 
-<<<<<<< HEAD
+class CminusListener(CminusListener):
 
-=======
->>>>>>> 204f73f86aeb42db593cc91ab15b8a67b8611f8a
+    def exitVar(self, ctx):
+        print(ctx.getText())
+            
+stream = FileStream('code_test.c-')
+lexer = CminusLexer(stream)
+stream = CommonTokenStream(lexer)
+parser = CminusParser(stream)
+tree = parser.program()
+
+printer = CminusListener()
+walker = ParseTreeWalker()
+walker.walk(printer, tree)
+```
+```
+v
+u
+v
+u
+u
+v
+v
+x
+y
+res
+x
+y
+res
+```
