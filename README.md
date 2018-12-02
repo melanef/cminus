@@ -56,22 +56,7 @@
       [@13,38:39='==',<20>,2:7]
 ```
 No pygrun está tudo funcionando corretamente, com o código a seguir é possível percorrer a árvore utilizando o walker para imprimir os nomes de todas as variáveis após modificação de um método da classe Listener:
-```
-import sys
-from antlr4 import *
-from CminusLexer import CminusLexer
-from CminusParser import CminusParser
-from CminusListener import CminusListener
-from CminusVisitor import CminusVisitor
 
-
-input = FileStream('code_test.c-')
-#input = InputStream('code_test.c-')
-lexer = CminusLexer(input)
-stream = CommonTokenStream(lexer)
-parser = CminusParser(stream)
-tree = parser.program()
-```
 ```
 from antlr4 import *
 from CminusLexer import CminusLexer
